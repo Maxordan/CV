@@ -1,0 +1,175 @@
+/* Les expériences */
+.principal {
+    background-color: #f5f5f5;
+    margin: 32px 50px;
+    width: 780px;
+}
+.principal h3 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-family: 'Lato', serif;
+    font-size: 22px;
+    color: #17abb3;
+}
+
+hr {
+    margin: -10px 0px 17px;
+    border: 1px solid #cecece;
+    width: 788px;
+}
+
+.principal p {
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    max-width: 786px;
+}
+.principal .profil p {
+    text-indent: 30px ;
+    margin: 0 0 0 0;
+}
+/* formations */
+.formations, .stages, .experiences {
+    display: block;
+}
+.formations .inline {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    height: 80px;
+}
+.formations .inline:hover {
+    background-color: #cecece;
+    border-left: 5px solid #17abb3;
+    padding-left: 10px;
+}
+.formations .titre {
+    display: flex;
+    flex-direction: column;
+}
+
+.formations .titre h4 {
+    margin: 25px 0px 0px;
+    padding: 0;
+    font-family: 'Lato', serif;
+    font-weight: 900;
+}
+.formations .titre h5 {
+    margin: 0px 0px 0px;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    transform: skewX(-15deg);
+}
+.formations p {
+    padding-right: 15px;
+    font-family: 'Raleway', sans-serif;
+    color: #17abb3;
+}
+/* stages */
+
+.stages .inline {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    height: 80px;
+}
+.stages .inline:hover {
+    background-color: #cecece;
+    border-left: 5px solid #17abb3;
+    padding-left: 10px;
+}
+.stages .titre {
+    display: flex;
+    flex-direction: column;
+}
+
+.stages .titre h4 {
+    margin: 25px 0px 0px;
+    padding: 0;
+    font-family: 'Lato', serif;
+    font-weight: 900;
+}
+.stages .titre h5 {
+    margin: 0px 0px 0px;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    transform: skewX(-15deg);
+}
+.stages p {
+    padding-right: 15px;
+    font-family: 'Raleway', sans-serif;
+    color: #17abb3;
+}
+/* experiences */
+
+.experiences .inline {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    height: 80px;
+}
+.experiences .inline:hover {
+    background-color: #cecece;
+    border-left: 5px solid #17abb3;
+    padding-left: 10px;
+}
+.experiences .titre {
+    display: flex;
+    flex-direction: column;
+}
+
+.experiences .titre h4 {
+    margin: 25px 0px 0px;
+    padding: 0;
+    font-family: 'Lato', serif;
+    font-weight: 900;
+}
+.experiences .titre h5 {
+    margin: 0px 0px 0px;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    transform: skewX(-15deg);
+}
+.experiences p {
+    padding-right: 15px;
+    font-family: 'Raleway', sans-serif;
+    color: #17abb3;
+}
+/* Le footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 5px;
+    padding: 5px;
+    position: absolute;
+    bottom: -669px;
+    background-color: #17abb3;
+    width: 1160px;
+    height: 70px;
+}
+footer .link {
+    margin: 20px 0 0;
+}
+
+footer .link img {
+    width: 40px;
+    height: 25px;
+}
+footer .link img:hover {
+    opacity: 80%;
+}
+footer p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+    line-height: 10px;
+    transform: skewX(-15deg);
+}

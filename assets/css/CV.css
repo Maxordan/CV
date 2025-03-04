@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: 'Raleway';
+    src: url(https://fonts.google.com/specimen/Raleway);
+}
+
+body {
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebeaea; 
+}
+/* Centrage du cv */
+.fond {
+    width: 1160px;
+    background-color: #f5f5f5;
+}
+/* Le header */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: -8px;
+    padding: 20px 5px;
+    background-color: #17abb3;
+    width: 1160px;
+}
+.id {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* Titre 1 */
+header h1 {
+    margin: 0;
+    font-family: 'Lato', serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 45px;
+}
+/* Titre 2 */
+header h2 {
+    margin: 0;
+    font-family: 'Lato', serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+}
+/* Les liens */
+.liens {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 215px;
+}
+.liens a {
+    font-family: 'Lato', serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #f5f5f5;
+    text-decoration: none;
+    text-align: center;
+}
+.liens img {
+    margin: 0px 8px;
+    width: 15px;
+    height: 15px;
+}
+/* La photo */
+.photo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: -137px;
+}
+.photo img {
+    border: 5px solid #ffffff;
+    border-radius: 500px;
+    width: 120px;
+    height: 120px;
+    cursor:zoom-in;
+}
+.photo img:active {
+    width: 1450px;
+    height: 740px;
+    border-radius: 0;
+}
+
+.id {
+    color: #f5f5f5;
+}
+/* Disposition des deux sections */
+main {
+    display: flex;
+}
+/* Les sections */
+/* Les capacités */
+.capacity {
+    margin: 8px -7px;
+    padding: 40px 47px;
+    background-color: #e3e3e3;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 775px;
+    height: 1096px;
+}
+/* Les Compétences, Langues, Qualités et Centres d'intérêts */
+.competences, .langages, .qualitys, .CI {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+    line-height: 0px;
+}
+/* Positions des deux sections */
+/* Compétences */
+.competences .position {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.competences .h3 {
+    margin-left: -53px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-family: 'Lato';
+    font-size: 19px;
+    color: #17abb3;
+}
+.competences hr {
+    margin: 0px 0px 20px;
+    border: 1px solid #cecece;
+    width: 205px;
+}
+.competences .titre {
+    font-family: 'Lato';
+    font-weight: 900;
+    font-size: 15px;
+    width: 135px;
+}
+
+/* Les images d'étoiles */
+.competences .etoiles {
+    display: flex;
+}
+.competences .etoiles img {
+    width: 15px;
+    height: 15px;
+}
+/* langues */
+.langages .position {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.langages .h3 {
+    margin-left: -53px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-family: 'Lato';
+    font-size: 19px;
+    color: #17abb3;
+}
+.langages hr {
+    margin: 0px 0px 20px;
+    border: 1px solid #cecece;
+    width: 205px;
+}
+.langages .titre {
+    font-family: 'Lato';
+    font-weight: 900;
+    font-size: 15px;
+    width: 77px;
+    line-height: 17px;
+}
+.langages .position .Langues {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+}
+.langages .position .Langues p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Qualités */
+.qualitys .position {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.qualitys .h3 {
+    margin-left: -53px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-family: 'Lato';
+    font-size: 19px;
+    color: #17abb3;
+}
+.qualitys hr {
+    margin: 0px 0px 20px;
+    border: 1px solid #cecece;
+    width: 205px;
+}
+.qualitys p {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    width: 200px;
+}
+.qualitys img {
+    margin-right: 10px;
+    width: 8px;
+    height: 8px;
+}
+/* Centres d'intérêts */
+.CI .position {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.CI h3 {
+    margin-left: -53px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #17abb3;
+}
+.CI hr {
+    margin: 0px 0px 20px;
+    border: 1px solid #cecece;
+    width: 205px;
+}
+.CI p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    width: 77px;
+}
+.CI img {
+    margin-right: 10px;
+    width: 8px;
+    height: 8px;
+}
